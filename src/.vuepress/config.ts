@@ -14,10 +14,3 @@ export default defineUserConfig({
   // shouldPrefetch: false,
 });
 
-plugins: {
-        'robots': {
-            host: "http://www.example.com",
-            disallowAll: true,
-            sitemap: "/assets/xml/sitemap.xml",
-        },
-    }

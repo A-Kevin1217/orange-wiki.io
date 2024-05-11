@@ -122,6 +122,13 @@ export default hopeTheme({
       // install sandpack-vue3 before enabling it
       // sandpack: true,
     },
+plugins: {
+        'robots': {
+            host: "http://www.example.com",
+            disallowAll: true,
+            sitemap: "/assets/xml/sitemap.xml",
+        },
+    }
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
