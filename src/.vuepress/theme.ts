@@ -45,10 +45,10 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "A-Kevin1217/orange-wiki",
-      repoId: "R_kgDOL6HXZg",
+      repo: "A-Kevin1217/orange-wiki.io",
+      repoId: "R_kgDOL6I11g",
       category: "General",
-      categoryId: "DIC_kwDOL6HXZs4CfSWR",
+      categoryId: "DIC_kwDOL6I11s4CfSp6",
     },
 
     components: {
