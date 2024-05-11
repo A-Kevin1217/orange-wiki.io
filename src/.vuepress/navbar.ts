@@ -40,7 +40,7 @@ export default navbar([
       {
         text: "我的世界唱片征集",
         prefix: "cd/",
-          children: [""],
+        children: [""],
       },
     ],
   },
