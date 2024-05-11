@@ -19,7 +19,7 @@ actions:
 
   - text: 我的世界唱片歌曲征集
     icon: compact-disc
-    link: ./cd/
+    link: ./mc/cd/
     type: primary
 
 highlights:
