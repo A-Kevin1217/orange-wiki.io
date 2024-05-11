@@ -28,6 +28,7 @@ export default hopeTheme({
   footer: "请勿商用，违者必究",
   displayFooter: false,
 
+  plugins.sitemap: false,
   // 加密配置
   encrypt: {
     config: {
@@ -84,9 +85,7 @@ export default hopeTheme({
       tasklist: true,
       vPre: true,
 
-
-      //不需要sitemap
-      plugins.sitemap: false,
+      
       
       // 在启用之前安装 chart.js
       // chart: true,
