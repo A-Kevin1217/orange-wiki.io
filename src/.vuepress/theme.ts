@@ -84,6 +84,10 @@ export default hopeTheme({
       tasklist: true,
       vPre: true,
 
+
+      //不需要sitemap
+      plugins.sitemap: false,
+      
       // 在启用之前安装 chart.js
       // chart: true,
 
