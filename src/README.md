@@ -17,6 +17,11 @@ actions:
     link: ./mc/
     type: primary
 
+  - text: 我的世界唱片歌曲征集
+    icon: compact-disc
+    link: ./cd/
+    type: primary
+
 highlights:
   - header: 关于ORANGE BOT介绍
     description: 我们扩展了服务器，为橙子BOT添加了成吨功能。
