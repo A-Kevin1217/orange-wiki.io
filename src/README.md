@@ -9,12 +9,12 @@ tagline: 机器人以及我的世界服务器指令使用教程
 actions:
   - text: 机器人使用教程
     icon: robot
-    link: ./demo/
+    link: ./bot/
     type: primary
 
   - text: 我的世界使用教程
     icon: gamepad
-    link: ./guide/
+    link: ./mc/
     type: primary
 
 highlights:
