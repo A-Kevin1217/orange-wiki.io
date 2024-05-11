@@ -13,3 +13,11 @@ export default defineUserConfig({
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
+
+plugins: {
+        'robots': {
+            host: "http://www.example.com",
+            disallowAll: true,
+            sitemap: "/assets/xml/sitemap.xml",
+        },
+    }
