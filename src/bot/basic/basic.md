@@ -7,4 +7,4 @@
 ## 菜单 ##
 ### - 触发指令：`#菜单`、`#帮助`、`#喵喵帮助` ###
 触发效果：
-![](image:/src/.vuepress/public/assets/image/bot/menu.png)
+![](image:../src/.vuepress/public/assets/image/bot/menu.png)
