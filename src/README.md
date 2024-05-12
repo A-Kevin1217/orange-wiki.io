@@ -153,6 +153,10 @@ highlights:
         icon: rotate
         details: 可以在任何设备上加入，无须担心没有设备游玩
 
+      - title: 向下兼容多个版本
+        icon: code-compare
+        details: 兼容JE 1.18 - 1.20.4 & BE 1.20.4x - 1.20.8x
+
       - title: 安全
         icon: lock
         details: 使用安全可靠的登录插件，无须担心他人使用你的名称
