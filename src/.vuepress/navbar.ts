@@ -3,7 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "机器人指令",
+    text: "机器人",
     icon: "robot",
     prefix: "/bot/",
     children: [
@@ -21,7 +21,7 @@ export default navbar([
       },
     ],
   },{
-    text: "我的世界指令",
+    text: "我的世界",
     icon: "gamepad",
     prefix: "/mc/",
     children: [
