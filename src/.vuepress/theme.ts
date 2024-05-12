@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://github.com/A-Kevin1217",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconify",
 
   logo: "./logo.ico",
 

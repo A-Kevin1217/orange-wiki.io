@@ -4,7 +4,7 @@ export default navbar([
   "/",
   {
     text: "机器人",
-    icon: "robot",
+    icon: "ri:robot-3-line",
     prefix: "/bot/",
     children: [
       {
@@ -22,7 +22,7 @@ export default navbar([
     ],
   },{
     text: "我的世界",
-    icon: "gamepad",
+    icon: "mdi:minecraft",
     prefix: "/mc/",
     children: [
       {
@@ -46,12 +46,12 @@ export default navbar([
   },
   {
     text: "免费查身高",
-    icon: "tree",
+    icon: "pixelarticons:human-height",
       link: "https://a-kevin1217.github.io/sky/",
     }, 
     {
         text: "联系小丞",
-        icon: "qq",
+        icon: "ri:qq-fill",
         link: "https://qm.qq.com/q/Cn9FvE1HNu",
     },
 ]);
