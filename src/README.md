@@ -143,32 +143,29 @@ highlights:
         details: 通过 Reveal.js 在 Markdown 中插入幻灯片
         link: https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html
 
-  - header: 高级
-    description: 增强站点与用户体验的高级功能
-    image: /assets/image/advanced.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+  - header: 🍊ORANGE WORLD
+    description: 小丞突发奇想创建的小型服务器
+    image: /mclogo.png
+    bgImage: /mc_light.png
+    bgImageDark: /mc_dark.png
     highlights:
-      - title: SEO 增强
-        icon: dumbbell
-        details: 将最终生成的网页针对搜索引擎进行优化。
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
+      - title: JE & BE 互通
+        icon: rotate
+        details: 无须担心没有设备游玩
 
-      - title: Sitemap
-        icon: sitemap
-        details: 自动为你的网站生成 Sitemap
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
+      - title: 安全
+        icon: lock
+        details: 使用了安全可靠的登录插件，无须担心他人登录使用你的名称
 
-      - title: Feed 支持
-        icon: rss
-        details: 生成你的 Feed，并通知你的用户订阅它
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
+      - title: 生电玩法
+        icon: bolt
+        details: 在这里你可以体验原生的生电玩法
 
-      - title: PWA 支持
-        icon: mobile-screen
-        details: 让你的网站更像一个 APP
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
+      - title: 自定义唱片
+        icon: compact-disc
+        details: 在这里你可以自定义你喜欢的唱片歌曲
+     
 
 copyright: false
-footer:  版权所有 © 2023-2024 小丞
+//footer:  版权所有 © 2023-2024 小丞
 ---
