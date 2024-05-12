@@ -151,7 +151,7 @@ highlights:
     highlights:
       - title: JE & BE 互通
         icon: rotate
-        details: 无须担心没有设备游玩
+        details: 可以在任何设备上加入，无须担心没有设备游玩
 
       - title: 安全
         icon: lock
