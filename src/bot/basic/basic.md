@@ -11,4 +11,4 @@
 :::
 
 触发效果：
-![](image/bot/menu.png)
+![](../../.vuepress/public/assets/image/bot/menu.png)
