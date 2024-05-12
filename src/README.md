@@ -155,7 +155,7 @@ highlights:
 
       - title: 安全
         icon: lock
-        details: 使用了安全可靠的登录插件，无须担心他人登录使用你的名称
+        details: 使用安全可靠的登录插件，无须担心他人使用你的名称
 
       - title: 生电玩法
         icon: bolt
