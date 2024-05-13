@@ -5,7 +5,7 @@ icon: compact-disc
 
 ## 介绍
 ![1](https://www.spigotmc.org/data/resource_icons/103/103219.jpg?1657361857)
-<br>自定义唱片由[Jukebox Extended Reborn](https://www.spigotmc.org/resources/jukebox-extended-reborn-add-custom-music-discs.103219/)插件提供支持
+自定义唱片由[Jukebox Extended Reborn](https://www.spigotmc.org/resources/jukebox-extended-reborn-add-custom-music-discs.103219/)插件提供支持
 
 
 🍊橙子服务器会向玩家**免费**提供自定义唱片功能
