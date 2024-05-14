@@ -9,6 +9,6 @@ icon: terminal
 
 ## 详情
 
-- [基础指令](basic.md)
+- [必备指令](basic.md)
 - [管理员指令](op.md)
 - ...
