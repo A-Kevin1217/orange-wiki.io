@@ -54,4 +54,9 @@ export default navbar([
         icon: "ri:qq-fill",
         link: "https://qm.qq.com/q/Cn9FvE1HNu",
     },
+    {
+        text: "",
+        icon: "gg:more-vertical-r",
+        link: "/poo",
+    },
 ]);
