@@ -1,6 +1,4 @@
-﻿# 基础指令
-
-## 必备指令
+# 必备指令
 
 ### <img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508">前置注册登录系统 [[LibreLogin](https://www.spigotmc.org/threads/librelogin-auto-login-2fa-bedrock-support.551817/ "Spigot")]
 
