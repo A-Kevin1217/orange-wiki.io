@@ -43,9 +43,9 @@ export default hopeTheme({
     plugins: {
         docsearch: {
             // 你的选项
-            appId: null,
-            apiKey: null,
-            indexName: null,
+            appId: "5C8JH59OI2",
+            apiKey: "7b0d56f117fa5b28d7f66373d1cfd65e",
+            indexName: "kevin-study",
         },
 
     sitemap: false,
