@@ -47,7 +47,7 @@ export default navbar([
   {
     text: "免费查身高",
     icon: "pixelarticons:human-height",
-      link: "https://a-kevin1217.github.io/sky/",
+      link: "http://sky.kevin-study.top/",
     }, 
     {
         text: "联系小丞",
