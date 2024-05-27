@@ -42,20 +42,18 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
     plugins: {
         docsearch: {
-            // 你的选项
             appId: "5C8JH59OI2",
             apiKey: "7b0d56f117fa5b28d7f66373d1cfd65e",
             indexName: "kevin-study",
         },
-
     sitemap: false,
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
-      provider: "Giscus",
-      repo: "A-Kevin1217/orange-wiki.io",
+      provider: "Waline",
+      serverurl: 'https://wikiwaline-a-kevin1217s-projects.vercel.app/',
+     /* repo: "A-Kevin1217/orange-wiki.io",
       repoId: "R_kgDOL6I11g",
       category: "General",
-      categoryId: "DIC_kwDOL6I11s4CfSp6",
+      categoryId: "DIC_kwDOL6I11s4CfSp6",*/
     },
 
     components: {
