@@ -19,7 +19,6 @@
     "vuepress-theme-hope": "2.0.0-rc.38"
   },
   "dependencies": {
-    "@vuepress/plugin-pwa": "^1.9.10",
     "@waline/client": "^3.2.0"
   }
 }
