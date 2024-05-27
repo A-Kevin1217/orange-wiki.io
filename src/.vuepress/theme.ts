@@ -41,7 +41,6 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
     plugins: {
-        pwa: true,
         docsearch: {
             appId: "5C8JH59OI2",
             apiKey: "7b0d56f117fa5b28d7f66373d1cfd65e",
