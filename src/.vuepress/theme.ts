@@ -49,7 +49,7 @@ export default hopeTheme({
     sitemap: false,
     comment: {
       provider: "Waline",
-      serverurl: 'https://wikiwaline-a-kevin1217s-projects.vercel.app/',
+      serverURL: "https://wikiwaline-a-kevin1217s-projects.vercel.app/",
      /* repo: "A-Kevin1217/orange-wiki.io",
       repoId: "R_kgDOL6I11g",
       category: "General",
