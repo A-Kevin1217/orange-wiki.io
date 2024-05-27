@@ -17,5 +17,8 @@
     "vuepress": "2.0.0-rc.9",
     "vuepress-plugin-search-pro": "2.0.0-rc.43",
     "vuepress-theme-hope": "2.0.0-rc.38"
+  },
+  "dependencies": {
+    "@waline/client": "^3.2.0"
   }
 }
