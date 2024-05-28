@@ -50,6 +50,18 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
         serverURL: "https://comment.kevin-study.top",
+        search: true,
+        reaction: true,
+        emoji: [
+            '//unpkg.com/@waline/emojis@1.2.0/alus',
+            '//unpkg.com/@waline/emojis@1.2.0/bilibili',
+            '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+            '//unpkg.com/@waline/emojis@1.2.0/qq',
+            '//unpkg.com/@waline/emojis@1.2.0/tieba',
+            '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+            '//unpkg.com/@waline/emojis@1.2.0/weibo',
+            '//unpkg.com/@waline/emojis@1.2.0/soul-emoji',
+    ],
      /* repo: "A-Kevin1217/orange-wiki.io",
       repoId: "R_kgDOL6I11g",
       category: "General",
