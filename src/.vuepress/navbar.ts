@@ -57,6 +57,6 @@ export default navbar([
     {
         text: "",
         icon: "gg:more-vertical-r",
-        link: "/poo",
+        link: "/awesome",
     },
 ]);
