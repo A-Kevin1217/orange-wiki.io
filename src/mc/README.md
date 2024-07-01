@@ -1,7 +1,7 @@
 ---
  title: Minecraft|我的世界
  icon: gamepad
- ---
+---
 
  - ### Kevin‘s Mod Dream
 
