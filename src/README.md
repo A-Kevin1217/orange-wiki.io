@@ -12,7 +12,7 @@ actions:
     link: ./bot/
     type: primary
 
-  - text: 我的世界使用教程
+  - text: Minecraft|我的世界
     icon: gamepad
     link: ./mc/
     type: primary
