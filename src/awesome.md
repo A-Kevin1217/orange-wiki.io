@@ -1,7 +1,5 @@
 # 公屏广播站使用指南
 
-# 必备指令
-
 >### 需要填写相关申请表单<img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508">
 
 
