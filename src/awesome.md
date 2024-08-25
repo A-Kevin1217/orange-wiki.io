@@ -1,8 +1,8 @@
-# 夕阳落山的markdown作业
+# 公屏广播站使用方式
 
 # 必备指令
-![第一步 #15px #15px](https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508)
-*需要填写相关申请表单*
+
+> <img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508"> > # 需要填写相关申请表单
 
 * 在管理群找到申请表单
 
@@ -16,10 +16,9 @@
 
 ---
 
-![第二步 #30px #30px](https://avatars.githubusercontent.com/u/93428079?s=200&v=4)
-如何申请公屏权限
+><img width="30" height="30" src="https://avatars.githubusercontent.com/u/93428079?s=200&v=4"> > # 如何申请公屏权限
 
-* 首先，需要填写一个表单[<sup>ⓘ</sup>](https://docs.qq.com/form/page/DYlZ2alduRUFIU0hG)。
+* 首先，需要填写一个[表单](https://docs.qq.com/form/page/DYlZ2alduRUFIU0hG)[<sup>ⓘ</sup>](https://docs.qq.com/form/page/DYlZ2alduRUFIU0hG)。
 
 * 需要准备一个使用公屏的QQ号。请直接填写QQ号，不要加其他的内容！
 示例：`123456789`
@@ -31,8 +30,7 @@
 
 ---
 
-![每日任务图标 #30px #30px](https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMzU0OTAzNDYzEhQVSNJ57qHOP8nsDbQ_m4uchUDS2RjLFCD_Cijq_sfMvJCIA1CAvaMB&rkey=CAESKBkcro_MGujoz60pl0qlVE9Ifi6TVi0EimI-uwv9bOIwKgma2sVXGyU&spec=0)
-  *公屏使用教程*  
+><img width="25" height="25" src="https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhSqjFVOCxHXIyLoWlnWJYXsaf6i5Rj3DSD_Ciji_4qOtpCIA1CAvaMB&rkey=CAESKBkcro_MGujoYOA_nUEn1SyMjGhhxyTsVGHIWYqFxgSkf_KeXC3rXGI&spec=0">  > # 公屏使用教程
 
 * 需要使用公屏时，请去到`‼️公屏广播站`里面。
 * 广播文字和图片时，请在聊天框输入`广播`二字，然后在后面加上你所想要`公屏的内容`即可。
