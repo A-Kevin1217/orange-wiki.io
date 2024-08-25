@@ -2,7 +2,7 @@
 
 # 必备指令
 
-><img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508">\n### 需要填写相关申请表单
+><img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508"> \n ### 需要填写相关申请表单
 
 * 在管理群找到申请表单
 
