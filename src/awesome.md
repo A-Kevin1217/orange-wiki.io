@@ -31,7 +31,7 @@
 
 ---
 
-![每日任务图标 #30px #30px](https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhSqjFVOCxHXIyLoWlnWJYXsaf6i5Rj3DSD_Ciji_4qOtpCIA1CAvaMB&rkey=CAESKBkcro_MGujoYOA_nUEn1SyMjGhhxyTsVGHIWYqFxgSkf_KeXC3rXGI&spec=0)
+![每日任务图标 #30px #30px](https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMzU0OTAzNDYzEhQVSNJ57qHOP8nsDbQ_m4uchUDS2RjLFCD_Cijq_sfMvJCIA1CAvaMB&rkey=CAESKBkcro_MGujoz60pl0qlVE9Ifi6TVi0EimI-uwv9bOIwKgma2sVXGyU&spec=0)
   *公屏使用教程*  
 
 * 需要使用公屏时，请去到`‼️公屏广播站`里面。
