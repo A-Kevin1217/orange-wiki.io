@@ -1,94 +1,42 @@
-# 临时借用页
+# 夕阳落山的markdown作业
 
-::: tip 暂时用于显示一些GPT回复的内容
-:::
+# 必备指令
+![第一步#15px#15px](https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508)*需要填写相关申请表单*
 
-> 问题：帮我用java代码编写一个可以解微分方程和微积分问题的程序，能够输入数学函数、数学方程式、定数学函数义变量取值范围并求导数、积分、极限以及微分方程
+* 在管理群找到申请表单
 
-以下为ChatGPT 4o的答复
+步骤①：` 找到QQ表单打开填写基本信息和QQ号 `
+
+步骤②：`公屏申请需有重大的传播用途和传播途径才会通过申请`
+
+* 随时注意负责与你对接的负责老师
+
+❗注意：`请随时留意相关负责老师给到你的反馈！如果缺少相关文件，公屏也是不会审核通过的。`
+
 ---
 
-好的，为了编写一个能够处理微分方程和微积分问题的Java程序，我们需要使用一些数学库，如Apache Commons Math和Symja。下面是一个简单的示例程序，展示如何使用这些库来求导数、积分、极限和解微分方程。
+![第二步#30px#30px](https://avatars.githubusercontent.com/u/93428079?s=200&v=4)如何申请公屏权限
 
-首先，我们需要在项目中引入必要的依赖项。我们将使用Maven来管理这些依赖项。确保你的`pom.xml`文件包含以下依赖项：
+* 首先，需要填写一个表单[<sup>ⓘ</sup>](https://docs.qq.com/form/page/DYlZ2alduRUFIU0hG)。
 
-```xml
-<dependencies>
-    <dependency>
-        <groupId>org.apache.commons</groupId>
-        <artifactId>commons-math3</artifactId>
-        <version>3.6.1</version>
-    </dependency>
-    <dependency>
-        <groupId>org.matheclipse.core</groupId>
-        <artifactId>matheclipse-core</artifactId>
-        <version>1.0.0</version>
-    </dependency>
-</dependencies>
-```
+* 需要准备一个使用公屏的QQ号。请直接填写QQ号，不要加其他的内容！
+示例：`123456789`
+::: tip 橙子小提示~
+填写时一定要把每一项填写清楚呀！填写不清楚不予以通过的~
+:::
 
-接下来是一个Java程序的示例，该程序使用这些库来处理微积分和微分方程问题：
+*   [填写表单](https://docs.qq.com/form/page/DYlZ2alduRUFIU0hG)
 
-```java
-import org.apache.commons.math3.analysis.differentiation.DerivativeStructure;
-import org.apache.commons.math3.analysis.integration.SimpsonIntegrator;
-import org.apache.commons.math3.analysis.solvers.NewtonRaphsonSolver;
-import org.matheclipse.core.eval.ExprEvaluator;
-import org.matheclipse.core.interfaces.IExpr;
+---
 
-public class MathSolver {
+![每日任务图标](https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhSqjFVOCxHXIyLoWlnWJYXsaf6i5Rj3DSD_Ciji_4qOtpCIA1CAvaMB&rkey=CAESKBkcro_MGujoYOA_nUEn1SyMjGhhxyTsVGHIWYqFxgSkf_KeXC3rXGI&spec=0)  *公屏使用教程*  
 
-    public static void main(String[] args) {
-        ExprEvaluator evaluator = new ExprEvaluator();
+* 需要使用公屏时，请去到`‼️公屏广播站`里面。
+* 广播文字和图片时，请在聊天框输入`广播`二字，然后在后面加上你所想要`公屏的内容`即可。
+* 如发送公屏时，在各个分群房间显示的是`undefined`。请在`‼️公屏广播站`发生一个`1`，再次在发生公屏，名字将会`正常显示`！
 
-        // 求导数
-        String function = "sin(x)";
-        String derivative = getDerivative(evaluator, function, "x");
-        System.out.println("Function: " + function);
-        System.out.println("Derivative: " + derivative);
+>注：⚠️无特殊情况或者活动，请不要在大半夜发送公屏。如违反规定，技术老师有权收回公屏的使用权限。
+* 管理和博主的公屏图标不一样，展现方式也不同，所以请不要震惊。
 
-        // 积分
-        double integral = getIntegral(evaluator, "x^2", "x", 0, 1);
-        System.out.println("Integral of x^2 from 0 to 1: " + integral);
 
-        // 极限
-        String limit = getLimit(evaluator, "sin(x)/x", "x", 0);
-        System.out.println("Limit of sin(x)/x as x approaches 0: " + limit);
-
-        // 微分方程求解
-        String odeSolution = solveODE(evaluator, "y'' + y = 0", "y", "x");
-        System.out.println("Solution to ODE y'' + y = 0: " + odeSolution);
-    }
-
-    public static String getDerivative(ExprEvaluator evaluator, String function, String variable) {
-        IExpr result = evaluator.eval("D(" + function + ", " + variable + ")");
-        return result.toString();
-    }
-
-    public static double getIntegral(ExprEvaluator evaluator, String function, String variable, double lowerBound, double upperBound) {
-        IExpr result = evaluator.eval("Integrate(" + function + ", {" + variable + ", " + lowerBound + ", " + upperBound + "})");
-        return Double.parseDouble(result.toString());
-    }
-
-    public static String getLimit(ExprEvaluator evaluator, String function, String variable, double point) {
-        IExpr result = evaluator.eval("Limit(" + function + ", " + variable + " -> " + point + ")");
-        return result.toString();
-    }
-
-    public static String solveODE(ExprEvaluator evaluator, String equation, String dependentVar, String independentVar) {
-        IExpr result = evaluator.eval("DSolve(" + equation + ", " + dependentVar + ", " + independentVar + ")");
-        return result.toString();
-    }
-}
-```
-
-这个程序主要功能包括：
-
-1. 求导数：使用`getDerivative`方法。
-2. 求积分：使用`getIntegral`方法。
-3. 求极限：使用`getLimit`方法。
-4. 解微分方程：使用`solveODE`方法。
-
-你需要确保在你的开发环境中正确配置了Maven，并且导入了上述依赖项。这样就可以编译并运行这个程序，处理基本的微积分和微分方程问题。
-
-如果你有更多的需求或需要更复杂的功能，欢迎随时告诉我，我会继续帮助你完善这个程序。
+> # 如果有问题或者疑问，请及时联系[夕阳落山]()或者[小丞]()。
