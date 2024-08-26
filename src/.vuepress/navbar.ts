@@ -51,7 +51,7 @@ export default navbar([
     children: [
       {
         text: "小丞身高查询",
-        icon: "terminal",
+        icon: "tabler:book-filled",
         prefix: "Height/",
         children: [""],
       },
