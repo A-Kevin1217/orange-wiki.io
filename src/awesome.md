@@ -1,6 +1,6 @@
 # 公屏广播站使用指南
 
->### 需要填写相关申请表单<img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508">
+- ### 需要填写相关申请表单<img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508">
 
 
 
@@ -16,7 +16,7 @@
 
 ---
 
->### 如何申请公屏权限<img width="30" height="30" src="https://avatars.githubusercontent.com/u/93428079?s=200&v=4">
+- ### 如何申请公屏权限<img width="30" height="30" src="https://avatars.githubusercontent.com/u/93428079?s=200&v=4">
 
  
 
@@ -32,16 +32,17 @@
 
 ---
 
->### 公屏使用教程<img width="25" height="25" src="https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhSqjFVOCxHXIyLoWlnWJYXsaf6i5Rj3DSD_Ciji_4qOtpCIA1CAvaMB&rkey=CAESKBkcro_MGujoYOA_nUEn1SyMjGhhxyTsVGHIWYqFxgSkf_KeXC3rXGI&spec=0">  
+- ### 公屏使用教程<img width="25" height="25" src="https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhSqjFVOCxHXIyLoWlnWJYXsaf6i5Rj3DSD_Ciji_4qOtpCIA1CAvaMB&rkey=CAESKBkcro_MGujoYOA_nUEn1SyMjGhhxyTsVGHIWYqFxgSkf_KeXC3rXGI&spec=0">  
 
 
 
 * 需要使用公屏时，请去到`‼️公屏广播站`里面。
 * 广播文字和图片时，请在聊天框输入`广播`二字，然后在后面加上你所想要`公屏的内容`即可。
-* 如发送公屏时，在各个分群房间显示的是`undefined`。请在`‼️公屏广播站`发生一个`1`，再次在发生公屏，名字将会`正常显示`！
+* 如发送公屏时，在各个分群房间显示的是`undefined`。请再次在`‼️公屏广播站`发送公屏，名字将会`正常显示`！
+> 发生此情况一般是因为广播系统进行了重启
 
->注：⚠️无特殊情况或者活动，请不要在大半夜发送公屏。如违反规定，技术老师有权收回公屏的使用权限。
+> 注：⚠️无特殊情况或者活动，请不要在大半夜发送公屏。如违反规定，技术老师有权收回公屏的使用权限。
 * 管理和博主的公屏图标不一样，展现方式也不同，所以请不要震惊。
 
 
-> # 如果有问题或者疑问，请及时联系[夕阳落山]()或者[小丞]()。
+> ## 如果有问题或者疑问，请及时联系[夕阳落山]()或者[小丞]()。
