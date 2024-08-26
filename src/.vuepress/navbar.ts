@@ -11,13 +11,13 @@ export default navbar([
         text: "机器人基础指令",
         icon: "terminal",
         prefix: "basic/",
-        children: ["basic"],
+        children: [""],
       },
       {
         text: "机器人拓展指令",
         icon: "terminal",
         prefix: "more/",
-          children: ["more"],
+          children: [""],
       },
     ],
   },{
