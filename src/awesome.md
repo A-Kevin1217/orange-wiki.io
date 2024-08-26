@@ -1,6 +1,6 @@
 # 公屏广播站使用指南
 
-- ### 需要填写相关申请表单<img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508">
+### 需要填写相关申请表单<img width="25" height="25" src="https://www.spigotmc.org/data/resource_icons/101/101040.jpg?1648584508">
 
 
 
@@ -16,7 +16,7 @@
 
 ---
 
-- ### 如何申请公屏权限<img width="30" height="30" src="https://avatars.githubusercontent.com/u/93428079?s=200&v=4">
+### 如何申请公屏权限<img width="30" height="30" src="https://avatars.githubusercontent.com/u/93428079?s=200&v=4">
 
  
 
@@ -32,7 +32,7 @@
 
 ---
 
-- ### 公屏使用教程<img width="25" height="25" src="https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhSqjFVOCxHXIyLoWlnWJYXsaf6i5Rj3DSD_Ciji_4qOtpCIA1CAvaMB&rkey=CAESKBkcro_MGujoYOA_nUEn1SyMjGhhxyTsVGHIWYqFxgSkf_KeXC3rXGI&spec=0">  
+### 公屏使用教程<img width="25" height="25" src="https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhSqjFVOCxHXIyLoWlnWJYXsaf6i5Rj3DSD_Ciji_4qOtpCIA1CAvaMB&rkey=CAESKBkcro_MGujoYOA_nUEn1SyMjGhhxyTsVGHIWYqFxgSkf_KeXC3rXGI&spec=0">  
 
 
 
@@ -45,4 +45,4 @@
 * 管理和博主的公屏图标不一样，展现方式也不同，所以请不要震惊。
 
 
-> ## 如果有问题或者疑问，请及时联系[夕阳落山]()或者[小丞]()。
+## 如果有问题或者疑问，请及时联系[夕阳落山]()或者[小丞]()。
