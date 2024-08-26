@@ -46,7 +46,7 @@ export default navbar([
   },
   {
     text: "光遇身高查询",
-    icon: "ri:robot-3-line",
+    icon: "arcticons:sky",
     prefix: "/bot/",
     children: [
       {
