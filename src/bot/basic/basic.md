@@ -61,11 +61,11 @@
 6. meme表情包
 发送`meme表情包`的指令，即可随机获得一张meme表情包哦！
 
-![meme表情包](https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhQs5dPMbfTLwCynFjqwiUE36oIuDBj7hzAg_woo3f2akIGTiANQgL2jAQ&rkey=CAQSKAB6JWENi5LMY0fYyuvsIZKYkaoql-gOL6KFOrRshOOiu-Kg5f3CMKU&spec=0)
+![meme表情包](../../.vuepress/public/assets/image/bot/basic/1.jpeg)
 
 7. 喜加一
 发送`喜加一`的指令，即可了解到EPIC游戏平台的一款**免费入库的游戏**。
-![喜加一效果示例](https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMzU0OTAzNDYzEhQ_XGGd6h-Fyj0jh07mY0XznjVHKxiTnQsg_woogIaNioOTiANQgL2jAQ&rkey=CAMSKMa3OFokB_TlS0p23ZDPsZAtCth_Dg0Hl8JXn8mV3LQoLETIgfNIH2M&spec=0)
+![喜加一效果示例](../../.vuepress/public/assets/image/bot/basic/2.png)
 
 8. 点歌
 发送`#点歌`指令，即可获得机器人通过语音形式发送所点歌曲。
@@ -75,7 +75,7 @@
 
 9. 咸鱼帮助
 发送`#咸鱼帮助`指令，即可获得一个小游戏合集。
-![小游戏合集图片](https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=CgoxMjgwMTY1NDIyEhTFUogtLhBgF6jSy9P9_aGrrRWb1hi7gUcg_woo1P_a54KTiANQgL2jAQ&rkey=CAISKKSBekjVG1fMpKieuBsAG7T_D1xXo9qOC5RWzjJSa8QTP4fTrEi6LQs&spec=0)
+![小游戏合集图片](../../.vuepress/public/assets/image/bot/basic/3.jpeg)
 
 
 
