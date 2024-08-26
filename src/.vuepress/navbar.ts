@@ -45,10 +45,23 @@ export default navbar([
     ],
   },
   {
-    text: "免费查身高",
-    icon: "pixelarticons:human-height",
-      link: "http://sky.kevin-study.top/",
-    }, 
+    text: "光遇身高查询",
+    icon: "ri:robot-3-line",
+    prefix: "/bot/",
+    children: [
+      {
+        text: "身高查询教程",
+        icon: "terminal",
+        prefix: "Height/",
+        children: [""],
+      },
+      {
+        text: "免费查身高",
+        icon: "pixelarticons:human-height",
+          link: "http://sky.kevin-study.top/",
+      }, 
+    ],
+  },
     {
         text: "联系小丞",
         icon: "ri:qq-fill",
