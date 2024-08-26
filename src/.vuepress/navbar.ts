@@ -50,7 +50,7 @@ export default navbar([
     prefix: "/bot/",
     children: [
       {
-        text: "身高查询教程",
+        text: "小丞身高查询",
         icon: "terminal",
         prefix: "Height/",
         children: [""],
