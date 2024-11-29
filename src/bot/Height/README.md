@@ -1,7 +1,7 @@
 # 身高查询教程
 
-[点击跳转发卡喵 <img width="50" height="50"
-   src="../../.vuepress/public/assets/image/bot/height/miao.png"/>](https://c.fakamiao.top/shopDetail/6tXptH) "点击跳转发卡喵")
+[如需购卡点击此处 <img width="50" height="50"
+   src="../../.vuepress/public/assets/image/bot/height/miao.png"/>](https://c.fakamiao.top/shopDetail/6tXptH "点击跳转发卡喵")
 
 *什么？居然还有光之子不会查身高？看好啦~一步一步来*
 
