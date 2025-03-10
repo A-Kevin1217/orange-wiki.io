@@ -9,4 +9,5 @@ icon: robot
 
 ### 机器人拓展指令
 
-- [拓展指令](more/more.md)
+- [拓展指令](more/README.md)
+- [广播指令](more/awesome.md)

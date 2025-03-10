@@ -64,7 +64,7 @@ highlights:
         icon: fluent:more-circle-16-filled
         details: 还有更多功能等你发现
 
-  - header: 🍊ORANGE WORLD
+  - header: 🍊ORANGE WORLD（暂时关闭）
     description: 小丞突发奇想创建的小型服务器
     image: /mclogo.png
     bgImage: /mc_light.png
