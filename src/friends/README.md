@@ -47,7 +47,7 @@ icon: ri:links-line
 <VPCard
   title="椰奶插件文档"
   desc="Yunzai-Bot 的强大扩展插件"
-  logo="https://yenai-plugin-eta.vercel.app/logo.png"
+  logo="https://github.com/yeyang52/yenai-plugin/raw/v2/resources/img/logo.gif"
   link="https://yenai-plugin-eta.vercel.app"
 />
 
