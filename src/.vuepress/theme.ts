@@ -41,29 +41,10 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    search: {
-      locales: {
-        "/": {
-          placeholder: "搜索文档",
-        },
-      },
-    },
     sitemap: false,
     comment: {
       provider: "Waline",
-      serverURL: "https://comment.kevin-study.top",
-
-      reaction: true,
-      emoji: [
-        '//unpkg.com/@waline/emojis@1.2.0/alus',
-        '//unpkg.com/@waline/emojis@1.2.0/bilibili',
-        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
-        '//unpkg.com/@waline/emojis@1.2.0/qq',
-        '//unpkg.com/@waline/emojis@1.2.0/tieba',
-        '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
-        '//unpkg.com/@waline/emojis@1.2.0/weibo',
-        '//unpkg.com/@waline/emojis@1.2.0/soul-emoji',
-      ],
+      serverURL: 'https://comment.kevin-study.top',
       /* repo: "A-Kevin1217/orange-wiki.io",
        repoId: "R_kgDOL6I11g",
        category: "General",
@@ -80,6 +61,7 @@ export default hopeTheme({
       attrs: true,
       codetabs: true,
       component: true,
+      demo: true,
       figure: true,
       imgLazyload: true,
       imgSize: true,
