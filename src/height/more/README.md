@@ -6,7 +6,7 @@ icon: ruler
 # 光遇三服身高查询教程
 
 ::: tip 购买入口
-[购买查询次数 <img width="50" height="50" src="/assets/image/height/miao.png"/>](https://c.fakamiao.top/shopDetail/6tXptH "点击跳转发卡喵")
+[购买查询次数 <img width="25" height="25" src="/assets/image/height/miao.png"/>](https://c.fakamiao.top/shopDetail/6tXptH "点击跳转发卡喵")
 :::
 
 ::: warning 重要提示
