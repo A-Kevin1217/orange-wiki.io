@@ -40,32 +40,34 @@ export default hopeTheme({
   // hotReload: true,
 
   // 在这里配置主题提供的插件
-    plugins: {
-        docsearch: {
-            appId: "5C8JH59OI2",
-            apiKey: "7b0d56f117fa5b28d7f66373d1cfd65e",
-            indexName: "kevin-study",
+  plugins: {
+    search: {
+      locales: {
+        "/": {
+          placeholder: "搜索文档",
         },
+      },
+    },
     sitemap: false,
     comment: {
       provider: "Waline",
-        serverURL: "https://comment.kevin-study.top",
-        search: true,
-        reaction: true,
-        emoji: [
-            '//unpkg.com/@waline/emojis@1.2.0/alus',
-            '//unpkg.com/@waline/emojis@1.2.0/bilibili',
-            '//unpkg.com/@waline/emojis@1.2.0/bmoji',
-            '//unpkg.com/@waline/emojis@1.2.0/qq',
-            '//unpkg.com/@waline/emojis@1.2.0/tieba',
-            '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
-            '//unpkg.com/@waline/emojis@1.2.0/weibo',
-            '//unpkg.com/@waline/emojis@1.2.0/soul-emoji',
-    ],
-     /* repo: "A-Kevin1217/orange-wiki.io",
-      repoId: "R_kgDOL6I11g",
-      category: "General",
-      categoryId: "DIC_kwDOL6I11s4CfSp6",*/
+      serverURL: "https://comment.kevin-study.top",
+
+      reaction: true,
+      emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/alus',
+        '//unpkg.com/@waline/emojis@1.2.0/bilibili',
+        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.2.0/qq',
+        '//unpkg.com/@waline/emojis@1.2.0/tieba',
+        '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+        '//unpkg.com/@waline/emojis@1.2.0/weibo',
+        '//unpkg.com/@waline/emojis@1.2.0/soul-emoji',
+      ],
+      /* repo: "A-Kevin1217/orange-wiki.io",
+       repoId: "R_kgDOL6I11g",
+       category: "General",
+       categoryId: "DIC_kwDOL6I11s4CfSp6",*/
     },
 
     components: {
@@ -77,32 +79,14 @@ export default hopeTheme({
       align: true,
       attrs: true,
       codetabs: true,
-      component: true,
-      demo: true,
       figure: true,
       imgLazyload: true,
       imgSize: true,
-      include: true,
       mark: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
       sub: true,
       sup: true,
       tabs: true,
       tasklist: true,
-      vPre: true,
-
     },
-},
+  },
 });

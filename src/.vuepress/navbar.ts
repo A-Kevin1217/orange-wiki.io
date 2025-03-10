@@ -9,15 +9,21 @@ export default navbar([
     children: [
       {
         text: "机器人基础指令",
-        icon: "terminal",
+        icon: "mynaui:terminal",
         prefix: "basic/",
         children: [""],
       },
       {
         text: "机器人拓展指令",
-        icon: "terminal",
+        icon: "mynaui:terminal-solid",
         prefix: "more/",
         children: [""],
+      },
+      {
+        text: "公屏使用指南",
+        icon: "tabler:speakerphone",
+        prefix: "awesome",
+        link: "awesome",
       },
     ],
   }, {
@@ -27,33 +33,32 @@ export default navbar([
     children: [
       {
         text: "我的世界基础指令",
-        icon: "terminal",
+        icon: "arcticons:addons-for-minecraft-pe",
         prefix: "basic/",
         children: ["basic", "op"],
       },
       {
         text: "我的世界拓展指令",
-        icon: "terminal",
+        icon: "arcticons:minecraft-command",
         prefix: "more/",
         children: ["more"],
       },
       {
         text: "我的世界唱片征集",
-        prefix: "cd/",
-        children: [""],
+        icon: "tdesign:cd-filled",
+        link: "cd/",
       },
     ],
   },
   {
     text: "光遇身高查询",
     icon: "arcticons:sky",
-    prefix: "/",
+    prefix: "/height/",
     children: [
       {
-        text: "小丞身高查询",
+        text: "三服身高查询教程",
         icon: "tabler:book-filled",
-        prefix: "height/",
-        children: [""],
+        link: "more/",
       },
       {
         text: "免费查身高",
@@ -63,8 +68,8 @@ export default navbar([
     ],
   },
   {
-    text: "联系小丞",
-    icon: "ri:qq-fill",
-    link: "https://qm.qq.com/q/Cn9FvE1HNu",
-  },
+    text: "友情链接",
+    icon: "ri:links-line",
+    link: "/friends/",
+  }
 ]);
