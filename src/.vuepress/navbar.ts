@@ -35,13 +35,13 @@ export default navbar([
         text: "我的世界基础指令",
         icon: "arcticons:addons-for-minecraft-pe",
         prefix: "basic/",
-        children: ["basic", "op"],
+        children: ["", "op"],
       },
       {
         text: "我的世界拓展指令",
         icon: "arcticons:minecraft-command",
         prefix: "more/",
-        children: ["more"],
+        children: [""],
       },
       {
         text: "我的世界唱片征集",
