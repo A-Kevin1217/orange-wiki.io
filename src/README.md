@@ -8,18 +8,13 @@ heroText: 橙子Wiki
 tagline: 机器人以及我的世界服务器指令使用教程
 actions:
   - text: 机器人使用教程
-    icon: robot
+    icon: mynaui:terminal
     link: ./bot/
     type: primary
 
-  - text: Minecraft|我的世界
-    icon: gamepad
-    link: ./mc/
-    type: primary
-
-  - text: 我的世界唱片歌曲征集
-    icon: compact-disc
-    link: ./mc/cd/
+  - text: 光遇身高查询
+    icon: arcticons:sky
+    link: ./height/
     type: primary
 
 highlights:
@@ -62,34 +57,7 @@ highlights:
 
       - title: 更多功能
         icon: fluent:more-circle-16-filled
-        details: 还有更多功能等你发现
-
-  - header: 🍊ORANGE WORLD（暂时关闭）
-    description: 小丞突发奇想创建的小型服务器
-    image: /mclogo.png
-    bgImage: /mc_light.png
-    bgImageDark: /mc_dark.png
-    highlights:
-      - title: JE & BE 互通
-        icon: mdi:exchange
-        details: 可以在任何设备上加入，无须担心没有设备游玩
-
-      - title: 向下兼容多个版本
-        icon: pajamas:comparison
-        details: 兼容JE 1.18 - 1.20.4 & BE 1.20.4x - 1.20.8x
-
-      - title: 安全
-        icon: ant-design:safety-outlined
-        details: 使用安全可靠的登录插件，无须担心他人使用你的名称
-
-      - title: 生电玩法
-        icon: mdi:thunder
-        details: 在这里你可以体验原生的生电玩法
-
-      - title: 自定义唱片
-        icon: tdesign:cd
-        details: 在这里你可以自定义你喜欢的唱片歌曲
-     
+        details: 还有更多功能等你发现    
 
 copyright: false
 //footer:  版权所有 © 橙子科技工作室
