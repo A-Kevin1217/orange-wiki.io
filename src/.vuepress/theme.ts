@@ -44,7 +44,7 @@ export default hopeTheme({
     sitemap: false,
     comment: {
       provider: "Waline",
-      serverURL: 'https://comment.kevin-study.top',
+      serverURL: 'https://comment.kevcore.cn',
       /* repo: "A-Kevin1217/orange-wiki.io",
        repoId: "R_kgDOL6I11g",
        category: "General",
