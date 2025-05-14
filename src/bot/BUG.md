@@ -42,7 +42,7 @@ segment.button([
 | show                           | object         | 否       | 按钮显示条件，目前支持：<br>type: 'random'，data: 0-100，表示随机显示概率 |
 | show.type                      | string         | 否       | 显示条件类型，目前仅支持 'random'                                        |
 | show.data                      | number         | 否       | 随机显示的概率（0-100），如 50 表示 50% 概率显示                          |
-| type                           | number         | 否       | 指定 action.type，覆盖默认类型。常用：0 跳转，1 回调，2 指令，3 客户端时弹出 升级版本后可用 4 订阅按钮（腾讯未开放）5 不知道什么按钮，但是可以自定义unsupport_tips |
+| type                           | number         | 否       | 指定 action.type，覆盖默认类型。常用：0 跳转，1 回调，2 指令，3 会让客户端弹出 升级版本后可用，4 订阅按钮（腾讯未开放，5 不知道什么按钮，但是可以自定义unsupport_tips |
 | reply                          | boolean        | 否       | 指令按钮可用，是否带引用回复本消息，默认 false。                          |
 | enter                          | boolean        | 否       | 指令按钮可用，点击按钮后直接自动发送 data，默认 false。                   |
 | anchor                         | number         | 否       | 指令按钮可用，设置为 1 时点击按钮自动唤起手Q选图器，其他值暂无效果。      |
