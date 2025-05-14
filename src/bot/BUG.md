@@ -1,65 +1,52 @@
 # 按钮使用指南
 
-## segment.button 按钮字段说明（新版适配）
+## segment.button 按钮字段说明
 
-### 一、按钮结构完整示例
+### 一、按钮结构示例
 
 ```js
 segment.button([
-  {
-    id: 'btn1', // 按钮ID，可选，建议唯一
-    text: '按钮文本', // 必填，按钮上的文字
-    clicked_text: '已点击', // 必填，点击后按钮上的文字
-    style: 1, // 必填，按钮样式：0 灰色线框，1 蓝色线框
-    action_type: 1, // 必填，0 跳转，1 回调，2 指令
-    data: '相关数据', // 必填，操作相关的数据
-    permission_type: 2, // 必填，0 指定用户，1 管理员，2 所有人，3 指定身份组
-    specify_user_ids: ['123456'], // 可选，指定用户id列表
-    specify_role_ids: ['654321'], // 可选，指定身份组id列表（仅频道可用）
-    reply: false, // 可选，指令按钮可用，是否带引用回复
-    enter: false, // 可选，指令按钮可用，点击后自动发送
-    anchor: 0, // 可选，指令按钮可用，特殊功能
-    click_limit: 0, // 可选，已弃用
-    at_bot_show_channel_list: false, // 可选，已弃用
-    unsupport_tips: '当前客户端不支持此操作', // 必填，客户端不支持时的提示
-    // 兼容旧字段
-    callback: '#回调指令',
-    input: '输入内容',
-    link: 'https://example.com',
-    send: true,
-    permission: ['123456'],
-    show: { type: 'random', data: 50 }
+  { 
+    text: '按钮文本', 
+    callback: '#回调指令', 
+    input: '输入内容', 
+    link: 'https://example.com', 
+    style: 1, 
+    clicked_text: '已点击', 
+    send: true, 
+    permission: ['123456'], 
+    show: { type: 'random', data: 50 },
+    reply: false, // 指令按钮可用，是否带引用回复
+    enter: false, // 指令按钮可用，点击后自动发送
+    anchor: 0, // 指令按钮可用，特殊功能
+    click_limit: 0, // 已弃用
+    at_bot_show_channel_list: false, // 已弃用
+    unsupport_tips: '当前客户端不支持此操作' // 客户端不支持时的提示
   }
 ])
 ```
 
-### 二、每个字段说明（新版）
+### 二、每个字段说明
 
-| 字段名         | 类型           | 是否必填 | 作用说明                                                                 |
-| -------------- | -------------- | -------- | ------------------------------------------------------------------------ |
-| id             | string         | 否       | 按钮ID：在一个keyboard消息内设置唯一                                      |
-| text           | string         | 是       | 按钮上显示的文字。                                                      |
-| clicked_text   | string         | 是       | 按钮被点击后显示的文字。                                                 |
-| style          | number         | 是       | 按钮样式：0 灰色线框，1 蓝色线框                                         |
-| action_type    | number         | 是       | 0 跳转按钮，1 回调按钮，2 指令按钮                                       |
-| data           | string         | 是       | 操作相关的数据                                                          |
-| permission_type| number         | 是       | 0 指定用户，1 管理员，2 所有人，3 指定身份组（仅频道可用）              |
-| specify_user_ids| array         | 否       | 有权限的用户 id 的列表                                                  |
-| specify_role_ids| array         | 否       | 有权限的身份组 id 的列表（仅频道可用）                                   |
-| reply          | boolean        | 否       | 指令按钮可用，指令是否带引用回复本消息，默认 false                       |
-| enter          | boolean        | 否       | 指令按钮可用，点击按钮后直接自动发送 data，默认 false                    |
-| anchor         | number         | 否       | 指令按钮可用，特殊功能                                                  |
-| click_limit    | number         | 否       | 【已弃用】可操作点击的次数，默认不限                                     |
-| at_bot_show_channel_list | boolean | 否     | 【已弃用】指令按钮可用，弹出子频道选择器，默认 false                    |
-| unsupport_tips | string         | 是       | 客户端不支持本action的时候，弹出的toast文案                              |
-| callback       | string         | 否       | 兼容旧用法，按钮点击后触发的回调指令                                     |
-| input          | string         | 否       | 兼容旧用法，按钮点击后发送的输入内容                                     |
-| link           | string         | 否       | 兼容旧用法，按钮点击后跳转的链接                                         |
-| send           | boolean        | 否       | 兼容旧用法，是否在点击按钮后直接发送 input 内容                          |
-| permission     | string/array   | 否       | 兼容旧用法，指定哪些用户可以点击按钮，填 QQ 号或 QQ 号数组。'admin' 管理员 |
-| show           | object         | 否       | 按钮显示条件，目前支持 type: 'random', data: 0-100                      |
-| show.type      | string         | 否       | 显示条件类型，目前仅支持 'random'                                        |
-| show.data      | number         | 否       | 随机显示的概率（0-100），如 50 表示 50% 概率显示                          |
+| 字段名                         | 类型           | 是否必填 | 作用说明                                                                 |
+| ------------------------------ | -------------- | -------- | ------------------------------------------------------------------------ |
+| text                           | string         | 是       | 按钮上显示的文字。                                                      |
+| callback                       | string         | 否       | 按钮点击后触发的回调指令（如 `#QQBotdau`），用于处理按钮点击事件。        |
+| input                          | string         | 否       | 按钮点击后发送的输入内容，适合需要用户输入的场景。                       |
+| link                           | string         | 否       | 按钮点击后跳转的链接（如 `https://example.com`），适合外部跳转。         |
+| style                          | number         | 否       | 按钮样式，常见值：<br>0 灰色线条灰色字体<br>1 蓝色线条蓝色字体<br>3 灰色线条红色字体<br>4 蓝色背景白色字体 |
+| clicked_text                   | string         | 否       | 按钮被点击后显示的文字。                                                 |
+| send                           | boolean        | 否       | 是否在点击按钮后直接发送 input 内容。                                     |
+| permission                     | string/array   | 否       | 指定哪些用户可以点击按钮，填 QQ 号或 QQ 号数组。<br>填 'admin' 仅管理员可见 |
+| show                           | object         | 否       | 按钮显示条件，目前支持：<br>type: 'random'，data: 0-100，表示随机显示概率 |
+| show.type                      | string         | 否       | 显示条件类型，目前仅支持 'random'                                        |
+| show.data                      | number         | 否       | 随机显示的概率（0-100），如 50 表示 50% 概率显示                          |
+| reply                          | boolean        | 否       | 指令按钮可用，是否带引用回复本消息，默认 false。                          |
+| enter                          | boolean        | 否       | 指令按钮可用，点击按钮后直接自动发送 data，默认 false。                   |
+| anchor                         | number         | 否       | 指令按钮可用，设置为 1 时点击按钮自动唤起手Q选图器，其他值暂无效果。      |
+| click_limit                    | number         | 否       | 【已弃用】可操作点击的次数，默认不限                                      |
+| at_bot_show_channel_list       | boolean        | 否       | 【已弃用】指令按钮可用，弹出子频道选择器，默认 false                      |
+| unsupport_tips                 | string         | 否       | 客户端不支持本 action 时弹出的提示文案，建议填写                          |
 
 ### 三、常见用法举例
 
@@ -80,7 +67,7 @@ segment.button([
 
 #### 4. 指定样式和点击后文字
 ```js
-{ text: '点我', callback: '#test', style: 1, clicked_text: '已点' }
+{ text: '点我', callback: '#test', style: 4, clicked_text: '已点' }
 ```
 
 #### 5. 仅管理员可见
@@ -98,31 +85,19 @@ segment.button([
 { text: '仅我可见', callback: '#me', permission: ['123456789'] }
 ```
 
-#### 8. 完整新版按钮
+#### 8. 指令按钮高级用法
 ```js
-{
-  id: 'btn1',
-  text: '新版按钮',
-  clicked_text: '已点新版',
-  style: 1,
-  action_type: 2,
-  data: '/help',
-  permission_type: 0,
-  specify_user_ids: ['123456789'],
-  reply: true,
-  enter: true,
-  unsupport_tips: '当前客户端不支持此操作'
-}
+{ text: '自动发送', input: '内容', send: true, reply: true, enter: true, unsupport_tips: '请升级客户端' }
 ```
 
 ---
 
 ### 四、注意事项
 
-- 一个按钮可以同时设置 callback、input、link，但新版建议直接用 action_type 和 data 明确指定。
+- 一个按钮可以同时设置 callback、input、link，但一般只用其中一个，优先级通常为 input > callback > link。
 - style 不同平台可能显示略有差异，建议实际测试效果。
-- permission 支持单个 QQ 号、QQ 号数组或 'admin'，新版建议用 permission_type、specify_user_ids。
+- permission 支持单个 QQ 号、QQ 号数组或 'admin'。
 - show 字段目前仅支持随机显示，后续可能扩展更多条件。
-- 兼容旧字段，推荐逐步迁移到新版属性。
+- reply、enter、anchor、unsupport_tips 等字段建议在需要时填写，提升兼容性和用户体验。
 
 如需更复杂的按钮布局，可以传递二维数组实现多行多列按钮。
