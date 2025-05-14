@@ -35,7 +35,7 @@ segment.button([
 | callback                       | string         | 否       | 按钮点击后触发的回调指令（如 `#QQBotdau`），用于处理按钮点击事件。        |
 | input                          | string         | 否       | 按钮点击后发送的输入内容，适合需要用户输入的场景。                       |
 | link                           | string         | 否       | 按钮点击后跳转的链接（如 `https://example.com`），适合外部跳转。         |
-| style                          | number         | 否       | 按钮样式，常见值：<br>0 灰色线条灰色字体<br>1 蓝色线条蓝色字体<br>2 灰色线条红色字体<br>3 灰色线条红色字体<br>4 蓝色背景白色字体 |
+| style                          | number         | 否       | 按钮样式，常见值：<br>0 灰色线条灰色字体<br>1 蓝色线条蓝色字体<br>3 灰色线条红色字体<br>4 蓝色背景白色字体 |
 | clicked_text                   | string         | 否       | 按钮被点击后显示的文字。                                                 |
 | send                           | boolean        | 否       | 是否在点击按钮后直接发送 input 内容。                                     |
 | permission                     | string/array   | 否       | 指定哪些用户可以点击按钮，填 QQ 号或 QQ 号数组。<br>填 'admin' 仅管理员可见 |
