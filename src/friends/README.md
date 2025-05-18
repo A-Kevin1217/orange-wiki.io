@@ -11,14 +11,14 @@ icon: ri:links-line
   title="光遇身高查询"
   desc="免费查询国际服和测试服身高"
   logo="/logo.ico"
-  link="http://sky.kevin-study.top"
+  link="http://sky.kevcore.cn"
   background="/img/sky-height.jpg"
 />
 <VPCard
   title="🍊橙子BOT文件管理平台"
   desc="快速管理橙子BOT文件"
   logo="/logo.ico"
-  link="http://alist.kevin-study.top"
+  link="http://alist.kevcore.cn"
   background="/img/sky-height.jpg"
 />
 
