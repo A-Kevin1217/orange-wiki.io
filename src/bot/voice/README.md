@@ -1,5 +1,5 @@
 ---
-title: 拓展指令
+title: 可转换声音列表
 icon: hugeicons:ai-voice
 ---
 
