@@ -45,6 +45,11 @@ export default navbar([
     ],
   },
   {
+    text: "按钮指南",
+    icon: "game-icons:button-finger",
+    link: "BUG.html",
+  },
+  {
     text: "友情链接",
     icon: "ri:links-line",
     link: "/friends/",
