@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "#",
 
   author: {
-    name: "小丞儿",
-    url: "https://github.com/A-Kevin1217",
+    name: "小丞",
+    url: "https://qm.qq.com/q/1tP4x36fgY",
   },
 
   iconAssets: "iconify",
