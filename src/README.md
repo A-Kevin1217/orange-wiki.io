@@ -55,9 +55,6 @@ highlights:
         icon: ri:weibo-fill
         details: 订阅博主 推送文章等
 
-      - title: 更多功能
-        icon: fluent:more-circle-16-filled
-        details: 还有更多功能等你发现    
 
 copyright: false
 //footer:  版权所有 © 橙子科技工作室

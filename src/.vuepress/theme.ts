@@ -26,8 +26,8 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "请勿商用，违者必究",
-  displayFooter: false,
+  footer: "<a href='https://beian.miit.gov.cn/' target='_blank'>苏ICP备2025168545号-1</a>",
+  displayFooter: true,
 
   // 加密配置
   encrypt: {

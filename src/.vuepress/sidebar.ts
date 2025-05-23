@@ -23,27 +23,6 @@ export default sidebar({
       prefix: "awesome/",
       link: "awesome",
     },
-    ], "/mc/": [
-        "",
-        {
-            text: "我的世界基础指令",
-            icon: "arcticons:addons-for-minecraft-pe",
-            prefix: "basic/",
-            link: "basic/",
-            children: "structure",
-        },
-        {
-            text: "我的世界拓展指令",
-            icon: "arcticons:minecraft-command",
-            prefix: "more/",
-            link: "more/",
-            children: "structure",
-        },
-        {
-            text: "我的世界唱片征集",
-            icon: "tdesign:cd-filled",
-            link: "cd/",
-        },
     ],
     "/height/": [
         "",

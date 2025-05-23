@@ -26,29 +26,6 @@ export default navbar([
         link: "awesome",
       },
     ],
-  }, {
-    text: "我的世界",
-    icon: "mdi:minecraft",
-    prefix: "/mc/",
-    children: [
-      {
-        text: "我的世界基础指令",
-        icon: "arcticons:addons-for-minecraft-pe",
-        prefix: "basic/",
-        children: ["", "op"],
-      },
-      {
-        text: "我的世界拓展指令",
-        icon: "arcticons:minecraft-command",
-        prefix: "more/",
-        children: [""],
-      },
-      {
-        text: "我的世界唱片征集",
-        icon: "tdesign:cd-filled",
-        link: "cd/",
-      },
-    ],
   },
   {
     text: "光遇身高查询",
