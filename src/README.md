@@ -19,7 +19,7 @@ actions:
 
 highlights:
   - header: 关于ORANGE BOT介绍
-    description: 我们扩展了服务器，为橙子BOT添加了成吨功能。
+    description: 我们扩展了服务器，为六阶堂穗玉添加了成吨功能。
     image: ./logo2.png
     
     features:
