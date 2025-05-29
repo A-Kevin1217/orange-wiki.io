@@ -5,7 +5,7 @@ title: 主页
 heroImage: ./logo.png
 
 heroText: 橙子Wiki
-tagline: 机器人以及我的世界服务器指令使用教程
+tagline: 机器人以及光遇身高查询指令使用教程
 actions:
   - text: 机器人使用教程
     icon: mynaui:terminal
