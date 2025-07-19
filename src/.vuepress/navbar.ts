@@ -50,6 +50,11 @@ export default navbar([
     link: "BUG.html",
   },
   {
+    text: "光遇养成价格计算",
+    icon: "arcticons:sky",
+    link: "瞎几把算.html",
+  },
+  {
     text: "友情链接",
     icon: "ri:links-line",
     link: "/friends/",
