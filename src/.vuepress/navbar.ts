@@ -28,6 +28,11 @@ export default navbar([
     ],
   },
   {
+    text: "按钮指南",
+    icon: "game-icons:button-finger",
+    link: "BUG.html",
+  },
+  {
     text: "光遇身高查询",
     icon: "arcticons:sky",
     prefix: "/height/",
@@ -43,11 +48,6 @@ export default navbar([
         link: "http://sky.kevin-study.top/",
       },
     ],
-  },
-  {
-    text: "按钮指南",
-    icon: "game-icons:button-finger",
-    link: "BUG.html",
   },
   {
     text: "光遇养成价格计算",
