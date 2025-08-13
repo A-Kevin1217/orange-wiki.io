@@ -55,7 +55,7 @@ highlights:
         icon: ri:weibo-fill
         details: 订阅博主 推送文章等
 
-  - header: Y.C.L WORLD
+  - header: 🌠 Y.C.L WORLD
     description: 突发奇想创建的小型服务器
     image: /mclogo.png
     bgImage: /mc_light.png
