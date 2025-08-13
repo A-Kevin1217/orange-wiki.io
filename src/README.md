@@ -55,7 +55,7 @@ highlights:
         icon: ri:weibo-fill
         details: 订阅博主 推送文章等
 
-  - header: 🍊Y.C.L WORLD
+  - header: Y.C.L WORLD
     description: 突发奇想创建的小型服务器
     image: /mclogo.png
     bgImage: /mc_light.png
@@ -77,9 +77,6 @@ highlights:
         icon: mdi:thunder
         details: 在这里你可以体验原生的生电玩法
 
-      - title: 自定义唱片
-        icon: tdesign:cd
-        details: 在这里你可以自定义你喜欢的唱片歌曲
      
 
 
