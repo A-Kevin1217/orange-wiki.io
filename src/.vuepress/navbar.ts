@@ -84,6 +84,11 @@ export default navbar([
             text: "服务器相关指令",
             icon: "mynaui:terminal-solid",
             link: "Y.C.L常用指令手册.html",
+          },
+          {
+            text: "服务器配置指南",
+            icon: "mynaui:server",
+            link: "生电服配置指南.html",
           }
         ],
       }
