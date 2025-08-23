@@ -65,7 +65,7 @@ export default navbar([
           {
             text: "光遇养成价格计算",
             icon: "arcticons:sky",
-            link: "瞎几把算.html",
+            link: "/瞎几把算.html",
           }
         ],
       }
@@ -95,6 +95,7 @@ export default navbar([
     ],
   },
   
+
   {
     text: "友情链接",
     icon: "ri:links-line",
