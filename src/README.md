@@ -55,27 +55,27 @@ highlights:
         icon: ri:weibo-fill
         details: 订阅博主 推送文章等
 
-  - header: 🌠 Y.C.L WORLD
-    description: 突发奇想创建的小型服务器
-    image: /mclogo.png
-    bgImage: /mc_light.png
-    bgImageDark: /mc_dark.png
-    highlights:
-      - title: JE & BE 互通
-        icon: mdi:exchange
-        details: 可以在任何设备上加入，无须担心没有设备游玩
+  # - header: 🌠 Y.C.L WORLD
+  #   description: 突发奇想创建的小型服务器
+  #   image: /mclogo.png
+  #   bgImage: /mc_light.png
+  #   bgImageDark: /mc_dark.png
+  #   highlights:
+  #     - title: JE & BE 互通
+  #       icon: mdi:exchange
+  #       details: 可以在任何设备上加入，无须担心没有设备游玩
 
-      - title: 向下兼容多个版本
-        icon: pajamas:comparison
-        details: 兼容JE 1.20 - 1.21.8 & BE 1.20.70 - 1.21.100
+  #     - title: 向下兼容多个版本
+  #       icon: pajamas:comparison
+  #       details: 兼容JE 1.20 - 1.21.8 & BE 1.20.70 - 1.21.100
 
-      - title: 安全
-        icon: ant-design:safety-outlined
-        details: 使用安全可靠的登录插件，无须担心他人使用你的名称
+  #     - title: 安全
+  #       icon: ant-design:safety-outlined
+  #       details: 使用安全可靠的登录插件，无须担心他人使用你的名称
 
-      - title: 生电玩法
-        icon: mdi:thunder
-        details: 在这里你可以体验原生的生电玩法
+  #     - title: 生电玩法
+  #       icon: mdi:thunder
+  #       details: 在这里你可以体验原生的生电玩法
 
      
 
