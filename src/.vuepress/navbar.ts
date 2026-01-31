@@ -26,12 +26,12 @@ export default navbar([
             text: "公屏使用指南",
             icon: "tabler:speakerphone",
             prefix: "awesome",
-            link: "awesome",
+            link: "/awesome.html",
           },
           {
             text: "按钮指南",
             icon: "game-icons:button-finger",
-            link: "BUG.html",
+            link: "/BUG.html",
           },
         ],
       }
@@ -71,29 +71,29 @@ export default navbar([
       }
     ],
   },
-  {
-    text: "Minecraft",
-    icon: "arcticons:minecraft",
-    prefix: "/mc/",
-    children: [
-      {
-        text: "Y.C.L World",
-        icon: "mynaui:server",
-        children: [
-          {
-            text: "服务器相关指令",
-            icon: "mynaui:terminal-solid",
-            link: "Y.C.L常用指令手册.html",
-          },
-          {
-            text: "服务器配置指南",
-            icon: "mynaui:server",
-            link: "生电服配置指南.html",
-          }
-        ],
-      }
-    ],
-  },
+  // {
+  //   text: "Minecraft",
+  //   icon: "arcticons:minecraft",
+  //   prefix: "/mc/",
+  //   children: [
+  //     {
+  //       text: "Y.C.L World",
+  //       icon: "mynaui:server",
+  //       children: [
+  //         {
+  //           text: "服务器相关指令",
+  //           icon: "mynaui:terminal-solid",
+  //           link: "Y.C.L常用指令手册.html",
+  //         },
+  //         {
+  //           text: "服务器配置指南",
+  //           icon: "mynaui:server",
+  //           link: "生电服配置指南.html",
+  //         }
+  //       ],
+  //     }
+  //   ],
+  // },
   
 
   {
