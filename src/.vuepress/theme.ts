@@ -14,7 +14,6 @@ export default hopeTheme({
 
   logo: "./logo.ico",
 
-
   repo: "A-Kevin1217/orange-wiki.io",
 
   docsDir: "src",

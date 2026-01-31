@@ -1,1 +1,16 @@
-// place your custom styles here
+// 自定义样式
+// 浅粉色主题 (基于 Adobe RGB: 0.946, 0.868, 0.887 → #F1DDE2)
+
+:root {
+  // 主题色
+  --theme-color: #F1DDE2;
+  --theme-color-light: #F5E4E8;
+  --theme-color-dark: #D4B8BE;
+}
+
+// 深色模式
+html[data-theme="dark"] {
+  --theme-color: #F1DDE2;
+  --theme-color-light: #F5E4E8;
+  --theme-color-dark: #D4B8BE;
+}

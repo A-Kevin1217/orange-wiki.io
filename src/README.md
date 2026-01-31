@@ -4,7 +4,7 @@ icon: solar:home-broken
 title: 主页
 heroImage: ./logo.png
 
-heroText: 六阶堂穗玉Wiki
+heroText: FuSky Wiki
 tagline: 机器人以及光遇身高查询指令使用教程
 actions:
   - text: 机器人使用教程
@@ -18,8 +18,8 @@ actions:
     type: primary
 
 highlights:
-  - header: 关于六阶堂穗玉介绍
-    description: 我们扩展了服务器，为六阶堂穗玉添加了成吨功能。
+  - header: 关于FuSky介绍
+    description: 我们扩展了服务器，为FuSky添加了成吨功能。
     image: ./logo2.png
     
     features:
