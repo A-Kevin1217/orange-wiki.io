@@ -1,16 +1,16 @@
 // 自定义样式
-// 浅粉色主题 (基于 Adobe RGB: 0.946, 0.868, 0.887 → #F1DDE2)
+// 蓝色主题
 
 :root {
   // 主题色
-  --theme-color: #F1DDE2;
-  --theme-color-light: #F5E4E8;
-  --theme-color-dark: #D4B8BE;
+  --theme-color: #4C8BF5;
+  --theme-color-light: #E6F0FF;
+  --theme-color-dark: #1D5ACE;
 }
 
 // 深色模式
 html[data-theme="dark"] {
-  --theme-color: #F1DDE2;
-  --theme-color-light: #F5E4E8;
-  --theme-color-dark: #D4B8BE;
+  --theme-color: #4C8BF5;
+  --theme-color-light: #E6F0FF;
+  --theme-color-dark: #1D5ACE;
 }

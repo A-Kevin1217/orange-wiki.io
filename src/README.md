@@ -4,7 +4,7 @@ icon: solar:home-broken
 title: 主页
 heroImage: ./logo.png
 
-heroText: FuSky Wiki
+heroText: 橙子BOT Wiki
 tagline: 机器人以及光遇身高查询指令使用教程
 actions:
   - text: 机器人使用教程
@@ -18,8 +18,8 @@ actions:
     type: primary
 
 highlights:
-  - header: 关于FuSky介绍
-    description: 我们扩展了服务器，为FuSky添加了成吨功能。
+  - header: 关于橙子BOT介绍
+    description: 我们扩展了服务器，为橙子BOT添加了成吨功能。
     image: ./logo2.png
     
     features:
