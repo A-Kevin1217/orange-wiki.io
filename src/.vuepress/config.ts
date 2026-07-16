@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "橙子BOT Wiki",
+  title: "小鼬子 Wiki",
   description: "用于介绍小丞做的机器人以及光遇身高查询指令用法",
 
   theme,

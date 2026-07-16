@@ -15,8 +15,8 @@ icon: ri:links-line
   background="/img/sky-height.jpg"
 />
 <VPCard
-  title="🍊橙子BOT文件管理平台"
-  desc="快速管理橙子BOT文件"
+  title="🍊小鼬子文件管理平台"
+  desc="快速管理小鼬子文件"
   logo="/logo.ico"
   link="http://alist.kevcore.cn"
   background="/img/sky-height.jpg"
@@ -24,8 +24,8 @@ icon: ri:links-line
 
 ::: warning 私有服务
 以下服务仅供内部使用，不对外开放：
-- 🤖 橙子BOT管理平台 (bot.kevin-study.top/guoba)
-- 🔒 橙子BOT文件管理平台 (alist.kevin-study.top)
+- 🤖 小鼬子管理平台 (bot.kevin-study.top/guoba)
+- 🔒 小鼬子文件管理平台 (alist.kevin-study.top)
 :::
 
 ## 🌈 小伙伴
