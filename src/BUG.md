@@ -173,7 +173,13 @@ segment.button([
 
 ### 官机专用字段覆盖
 
-需要细调官方按钮结构时，可以使用 `QQBot` 字段。普通插件场景优先使用上面的通用字段。
+需要细调官方按钮结构时，可以使用 `QQBot` 字段覆盖适配器生成的官方按钮内容。普通插件场景优先使用上面的通用字段，只有通用字段覆盖不到官方字段时再写 `QQBot`。
+
+| 覆盖字段 | 说明 |
+| --- | --- |
+| `QQBot.render_data` | 覆盖官方按钮 `render_data`，例如 `label`、`visited_label`、`style`。 |
+| `QQBot.action` | 覆盖官方按钮 `action`，例如 `type`、`data`、`reply`、`enter`、`permission`、`click_limit`、`unsupport_tips`。 |
+| `QQBot.group_id` | 覆盖官方按钮互斥组；一般直接写顶层 `group_id` 更清晰。 |
 
 ```js
 segment.button([
@@ -193,7 +199,7 @@ segment.button([
 ])
 ```
 
-也可以通过 `QQBot.group_id` 设置互斥组，但一般直接写顶层 `group_id` 更清晰。
+如果顶层字段和 `QQBot` 同时配置，`QQBot` 内的同名官方字段优先级更高，适合临时补充适配器尚未抽象出来的官方按钮能力。
 
 ## 注意事项
 
